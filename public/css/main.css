@@ -76,10 +76,6 @@
 	--USRBG-banner-height: 120px;
 }
 
-/*.avatarWrapperNormal-ahVUaC {
-  top: 76px;
-} */
-
 /* --== Style text-highlighting ==-- */
 ::selection {
   background: var(--highlight);
