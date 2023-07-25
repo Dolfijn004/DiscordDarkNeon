@@ -4,6 +4,7 @@
 /* --== Define some general variables! ==-- */
 :root {
   --rgb-highlight: 4, 217, 255;
+  --rgb-mentions: 224, 209, 40
   --highlight: rgb(var(--rgb-highlight));
   --background: black;
   --close-button: var(--dnd-color) !important;
@@ -263,25 +264,25 @@ s {
 
 /* --== Style Mentions in messages ==-- */
 .mentioned-Tre-dv:before {
-  background-color: var(--highlight);
+  background-color: var(--rgb-mentions);
 }
 
 .mentioned-Tre-dv {
-  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0.4) 0%, rgba(var(--rgb-highlight), 0) 100%);
+  background: linear-gradient(90deg, rgba(var(--rgb-mentions), 0.4) 0%, rgba(var(--rgb-mentions), 0) 100%);
 }
 
 .mentioned-Tre-dv:hover {
-  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0.4) 0%, rgba(var(--rgb-highlight), 0) 100%) !important;
+  background: linear-gradient(90deg, rgba(var(--rgb-mentions), 0.4) 0%, rgba(var(--rgb-mentions), 0) 100%) !important;
 }
 
 .wrapper-1ZcZW- {
-  color: var(--highlight) !important;
-  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0.2) 0%, rgba(var(--rgb-highlight), 0.2) 100%) !important;
+  color: var(--rgb-mentions) !important;
+  background: linear-gradient(90deg, rgba(var(--rgb-mentions), 0.2) 0%, rgba(var(--rgb-mentions), 0.2) 100%) !important;
 }
 
 .wrapper-1ZcZW-:hover {
-  color: var(--highlight) !important;
-  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0.4) 0%, rgba(var(--rgb-highlight), 0.4) 100%) !important;
+  color: var(--rgb-mentions) !important;
+  background: linear-gradient(90deg, rgba(var(--rgb-mentions), 0.4) 0%, rgba(var(--rgb-mentions), 0.4) 100%) !important;
 }
 
 /* --== Style new message bubble ==-- */
