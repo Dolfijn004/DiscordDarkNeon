@@ -4,7 +4,7 @@
 /* --== Define some general variables! ==-- */
 :root {
   --rgb-highlight: 4, 217, 255;
-  --rgb-mentions: 4, 171, 222;
+  --rgb-mentions: 224, 209, 40;
   --highlight: rgb(var(--rgb-highlight));
   --background: black;
   --close-button: var(--dnd-color) !important;
